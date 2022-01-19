@@ -1,3 +1,5 @@
+//implemented simple linked list in JS with different operations
+
 class Node {
     constructor(element) {
         this.element = element;
@@ -142,34 +144,3 @@ class LinkedList {
     }
  
 }
-
-var ll = new LinkedList();
-
-ll.add(10);
-
-ll.printList();
- 
-console.log(ll.size_of_list());
-
-ll.add(20);
-ll.add(30);
-ll.add(40);
-ll.add(50);
-
-ll.printList();
- 
-console.log("is element removed ?" + ll.removeElement(50));
-
-ll.printList();
-
-console.log("Index of 40 " + ll.indexOf(40));
-
-ll.insertAt(60, 2);
- 
-ll.printList();
-
-console.log("is List Empty ? " + ll.isEmpty());
-
-console.log(ll.removeFrom(3));
- 
-ll.printList();
