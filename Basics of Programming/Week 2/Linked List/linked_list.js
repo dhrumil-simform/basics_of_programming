@@ -1,4 +1,4 @@
-//implemented simple linked list in JS with different operations
+//implemented simple linked list in JS with different operations 
 
 class Node {
     constructor(element) {
